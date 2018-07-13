@@ -1,0 +1,141 @@
+
+body {
+    /* Box-model */
+    padding: 0;
+  
+    /* Positioning */
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  
+    /* Typography */
+    font-size: 18px;
+    line-height: 150%;
+    color: green;
+  
+  
+  }
+
+  #logo{
+
+  }
+
+  .row {
+	background-color: #666;
+	color: black;
+	font-weight: bold;
+	padding: 10px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px; }
+
+  .card-body h3:hover
+  {
+   /* font-size:36px;*/
+    color:green;
+  /*  font-weight:800;*/
+  }
+
+  .centered h3:hover
+  {
+    font-size:36px;
+    color:#000;
+    font-weight:800;
+  }
+
+  #weed {
+    position: fixed; 
+    top: -50%; 
+    left: -50%; 
+    width: 200%; 
+    height: 200%;
+    z-index: -1;
+  }
+  #weed img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+    z-index: -1;
+  }
+#threed
+{
+    display:block;
+
+}
+
+  header {
+    background: #d21034;
+  }
+  
+  #holobuilderIframe
+  {
+color: #82b74b;
+
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+
+.container2 {
+    position: relative;
+    text-align: center;
+    color: black;
+    font-size:36px;
+    font-style: oblique;
+    
+}
+
+  .weed{
+      height: 100%;
+      width: 100%;
+  }
+
+  h1 {
+    /* Box-model */
+    padding: 20px 0;
+  
+    /* Positioning */
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 150px;
+  
+    /* Typography */
+    color: black;
+    text-align: center;
+  
+    /* Visual */
+    background: #115512;
+    color: #e0dfdc;
+    background-color: #333;
+    letter-spacing: .1em;
+    text-shadow: 
+      0 -1px 0 #fff, 
+      0 1px 0 #2e2e2e, 
+      0 2px 0 #2c2c2c, 
+      0 3px 0 #2a2a2a, 
+      0 4px 0 #282828, 
+      0 5px 0 #262626, 
+      0 6px 0 #82b74b, 
+      0 7px 0 #222, 
+      0 8px 0 #202020, 
+      0 9px 0 #1e1e1e, 
+      0 10px 0 #1c1c1c, 
+      0 11px 0 #1a1a1a, 
+      0 12px 0 #181818, 
+      0 13px 0 #161616, 
+      0 14px 0 #141414, 
+      0 15px 0 #121212, 
+      0 22px 30px rgba(0, 0, 0, 0.9)
+  }
+
+  
+  
+ 
