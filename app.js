@@ -20,18 +20,18 @@ var config = {
   database.ref().on("child_added", function(childSnapshot) {
     console.log(childSnapshot.val());
     var strainName = childSnapshot.val().strainName;
-    // var strainSpecies = childSnapshot.val().species;
-    // var strainEffect = childSnapshot.val().effect;
-    // var strainPicture = childSnapshot.val().picture;
+    var strainSpecies = #;
+    var strainEffect = #;
+    var strainPicture = #e;
     console.log(strainName);
-    // console.log(strainSpecies);
-    // console.log(strainEffect);
-    // console.log(strainPicture);
+    console.log(strainSpecies);
+    console.log(strainEffect);
+    console.log(strainPicture);
     var newRow = $("<tr>").append(
       $("<td>").text(strainName),
-      // $("<td>").text(strainSpecies),
-      // $("<td>").text(strainEffect),
-      // $("<td>").text(strainPicture),
+      $("<td>").text(strainSpecies),
+      $("<td>").text(strainEffect),
+      $("<td>").text(strainPicture),
     );
     $("#strain-table > tbody").append(newRow);
   });  
