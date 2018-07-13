@@ -1,7 +1,7 @@
   $("#add-strain-btn").on("click", function(event) {
     event.preventDefault();
     var strainName = $("#strain-name-input").val().trim();
-  var queryURL = "https://www.cannabisreports.com/api/v1.0/strains/search/" + strainName;
+  var queryURL = "https://www.cannabisreports.com/api/v1.0/strains/search/" + strainName + "";
   $.ajax({
     url: queryURL,
     method: "GET",
