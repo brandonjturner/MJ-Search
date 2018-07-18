@@ -1,21 +1,19 @@
 
 body {
-    /* Box-model */
     padding: 0;
   
-    /* Positioning */
+    
     margin: 0;
     font-family: Georgia, "Times New Roman", Times, serif;
   
-    /* Typography */
     font-size: 18px;
     line-height: 150%;
     color: green;
-  
-  
   }
 
-
+  .jumbotron{
+    background:none;
+  }
 
   .row {
 	background-color: #115512;
@@ -65,7 +63,7 @@ body {
 }
 #pic
 {
-  opacity:0.5
+  opacity:0.7
 }
 
   header {
@@ -125,9 +123,9 @@ color: #82b74b;
     text-align: center;
   
     /* Visual */
-    background: #115512;
+   
     color: #e0dfdc;
-    background-color: #333;
+    
     letter-spacing: .1em;
     text-shadow: 
       0 -1px 0 #fff, 
