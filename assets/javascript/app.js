@@ -14,15 +14,13 @@ var config = {
     database.ref().push(strainName);
     alert("Strain successfully added");
     $("#strain-name-input").val("");
-	var queryURL = "https://www.cannabisreports.com/api/v1.0/strains/search/" +
-        strainName;
   });
   database.ref().on("child_added", function(childSnapshot) {
     console.log(childSnapshot.val());
     var strainName = childSnapshot.val().strainName;
-    var strainSpecies = #;
-    var strainEffect = #;
-    var strainPicture = #e;
+    var strainSpecies = childSnapshot.val().species;
+    var strainEffect = childSnapshot.val().effect;
+    var strainPicture = childSnapshot.val().picture;
     console.log(strainName);
     console.log(strainSpecies);
     console.log(strainEffect);
